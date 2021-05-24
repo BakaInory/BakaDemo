@@ -14,6 +14,7 @@ import java.util.HashMap;
  * @date 2021-05-20 17:38
  **/
 @Data
+
 public class GirlFriend {
     private Long id;
     private String name;

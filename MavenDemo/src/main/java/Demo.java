@@ -1,3 +1,4 @@
+import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSON;
 
 import java.util.Date;
@@ -13,6 +14,7 @@ import java.util.Date;
  **/
 public class Demo {
     public static void main(String[] args) {
-        System.out.println(JSON.toJSONString(new Date()));
+        String a = HttpUtil.get("https://www.baidu.com");
+        System.out.println(a);
     }
 }
