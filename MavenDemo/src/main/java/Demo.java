@@ -1,11 +1,9 @@
-import cn.hutool.http.HttpUtil;
-import com.alibaba.fastjson.JSON;
-
-import java.util.Date;
+import entity.AccountHandle;
+import enums.EnumDemo;
 
 /**
  * <p>
- * TODO..
+ *     入口类
  * </p>
  *
  * @author BakaInory
@@ -14,7 +12,19 @@ import java.util.Date;
  **/
 public class Demo {
     public static void main(String[] args) {
-        String a = HttpUtil.get("https://www.baidu.com");
-        System.out.println(a);
+        try {
+            AccountHandle accountHandle = new AccountHandle(-2.3);
+            System.out.println(EnumDemo.SUCCESS.getMessage());
+        } catch (Exception e){
+            System.out.println(EnumDemo.SERVER_ERROR.getMessage());
+            try {
+                AccountHandle accountHandle = null;
+                accountHandle.deposit();
+            } catch (NullPointerException npe){
+                System.out.println(EnumDemo.NOT_FOUND.getMessage());
+            }catch (Exception ae){
+                System.out.println(EnumDemo.SERVER_ERROR.getMessage());
+            }
+        }
     }
 }

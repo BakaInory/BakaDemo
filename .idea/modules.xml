@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/BakaDemo.iml" filepath="$PROJECT_DIR$/.idea/BakaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDemo/JavaDemo.iml" filepath="$PROJECT_DIR$/JavaDemo/JavaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MavenDemo/MavenDemo.iml" filepath="$PROJECT_DIR$/MavenDemo/MavenDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleCrawler/SimpleCrawler.iml" filepath="$PROJECT_DIR$/SimpleCrawler/SimpleCrawler.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" filepath="$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" />
     </modules>
   </component>

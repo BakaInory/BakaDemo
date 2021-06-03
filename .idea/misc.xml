@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/MavenDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleCrawler/pom.xml" />
       </list>
     </option>
   </component>
