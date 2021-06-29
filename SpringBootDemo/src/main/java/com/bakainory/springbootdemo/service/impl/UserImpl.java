@@ -1,5 +1,6 @@
 package com.bakainory.springbootdemo.service.impl;
 
+import com.bakainory.springbootdemo.entity.pojo.User;
 import com.bakainory.springbootdemo.mapper.UserMapper;
 import com.bakainory.springbootdemo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +20,13 @@ import java.util.List;
 @Service
 public class UserImpl implements UserService {
 
+    @Autowired
+    UserMapper userMapper;
+
     @Override
-    public List<String> list() {
-        return null;
+    public List<User> list() {
+        List<User> users = userMapper.queryList();
+        System.out.println(users.toString());
+        return users;
     }
 }

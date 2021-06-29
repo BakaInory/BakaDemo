@@ -5,6 +5,6 @@
 <mapper namespace="com.bakainory.springbootdemo.mapper.UserMapper">
 
     <select id="queryList" resultType="com.bakainory.springbootdemo.entity.pojo.User">
-        select * from user
+        select * from user where 1 = 2
     </select>
 </mapper>

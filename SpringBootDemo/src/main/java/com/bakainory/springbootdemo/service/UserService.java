@@ -1,5 +1,7 @@
 package com.bakainory.springbootdemo.service;
 
+import com.bakainory.springbootdemo.entity.pojo.User;
+
 import java.util.List;
 
 /**
@@ -12,5 +14,5 @@ import java.util.List;
  * @date 2021-05-24 16:10
  **/
 public interface UserService {
-    List<String> list();
+    List<User> list();
 }

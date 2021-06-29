@@ -3,6 +3,7 @@ package com.bakainory.springbootdemo.entity.pojo;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 
 import java.util.List;
 
@@ -17,6 +18,7 @@ import java.util.List;
  **/
 
 @TableName(value = "User")
+@Data
 public class User {
     @TableId(value = "id")
     private Integer id;

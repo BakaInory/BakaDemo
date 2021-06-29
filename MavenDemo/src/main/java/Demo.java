@@ -1,5 +1,8 @@
-import entity.AccountHandle;
-import enums.EnumDemo;
+import cn.hutool.core.date.DateUtil;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /**
  * <p>
@@ -12,19 +15,7 @@ import enums.EnumDemo;
  **/
 public class Demo {
     public static void main(String[] args) {
-        try {
-            AccountHandle accountHandle = new AccountHandle(-2.3);
-            System.out.println(EnumDemo.SUCCESS.getMessage());
-        } catch (Exception e){
-            System.out.println(EnumDemo.SERVER_ERROR.getMessage());
-            try {
-                AccountHandle accountHandle = null;
-                accountHandle.deposit();
-            } catch (NullPointerException npe){
-                System.out.println(EnumDemo.NOT_FOUND.getMessage());
-            }catch (Exception ae){
-                System.out.println(EnumDemo.SERVER_ERROR.getMessage());
-            }
-        }
+        int yesterdayOfWeek = DateUtil.dayOfWeek(DateUtil.parseDate("2021-6-5"));
+        System.out.println(yesterdayOfWeek);
     }
 }
