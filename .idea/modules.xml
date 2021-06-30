@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/MavenDemo/MavenDemo.iml" filepath="$PROJECT_DIR$/MavenDemo/MavenDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleCrawler/SimpleCrawler.iml" filepath="$PROJECT_DIR$/SimpleCrawler/SimpleCrawler.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" filepath="$PROJECT_DIR$/SpringBootDemo/SpringBootDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMyBatisPlus/SpringBootMyBatisPlus.iml" filepath="$PROJECT_DIR$/SpringBootMyBatisPlus/SpringBootMyBatisPlus.iml" />
     </modules>
   </component>
 </project>

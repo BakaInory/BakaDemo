@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6229200-3613-482b-9964-f43c28a98713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaDemo/src/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDemo/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDemo/src/hutool/dateutil/DateUtilOffsetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenDemo/src/main/java/entity/AccountHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenDemo/src/main/java/entity/UserDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenDemo/src/main/java/enums/EnumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MavenDemo/src/main/java/utils/HutoolDateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MavenDemo/src/main/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MavenDemo/src/main/java/Demo.java" afterDir="false" />
-    </list>
+    <list default="true" id="d6229200-3613-482b-9964-f43c28a98713" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +16,8 @@
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Mapper" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,7 +76,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -98,7 +89,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.UserController">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="MavenDemo" />
@@ -115,13 +106,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaDemo" />
-      <module name="JavaDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,6 +130,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bakainory.springbootdemo.controller.UserController" />
+      <module name="SpringBootDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bakainory.springbootdemo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisplusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBootMyBatisPlus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bakainory.mybatisplus.MybatisplusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimplecrawlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SimpleCrawler" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bakainory.simplecrawler.SimplecrawlerApplication" />
@@ -162,20 +177,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.JavaDemo" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.HutoolDateUtils" />
       <item itemvalue="Application.ListTest" />
+      <item itemvalue="Application.UserController" />
       <item itemvalue="Spring Boot.SpringBootDemoApplication" />
       <item itemvalue="Spring Boot.SimplecrawlerApplication" />
+      <item itemvalue="Spring Boot.MybatisplusApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserController" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.HutoolDateUtils" />
         <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.JavaDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +220,12 @@
       <workItem from="1622081737534" duration="420000" />
       <workItem from="1622119591457" duration="1268000" />
       <workItem from="1622528921492" duration="8982000" />
-      <workItem from="1622701930062" duration="608000" />
+      <workItem from="1622701930062" duration="6690000" />
+      <workItem from="1623228495303" duration="2208000" />
+      <workItem from="1623725443581" duration="387000" />
+      <workItem from="1623737315406" duration="3263000" />
+      <workItem from="1624295961747" duration="840000" />
+      <workItem from="1624947626953" duration="2021000" />
     </task>
     <task id="LOCAL-00001" summary="逻辑实现">
       <created>1621666244462</created>
@@ -220,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621860304437</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="所有更新">
+      <created>1624947929028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624947929028</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +269,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="逻辑实现" />
     <MESSAGE value="未完成的。。 mybatis-plus测试。。 下次新开进行测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="未完成的。。 mybatis-plus测试。。 下次新开进行测试" />
+    <MESSAGE value="所有更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="所有更新" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootDemo/src/main/java/com/bakainory/springbootdemo/controller/GetPostController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
