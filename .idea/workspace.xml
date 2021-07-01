@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6229200-3613-482b-9964-f43c28a98713" name="Default Changelist" comment="" />
+    <list default="true" id="d6229200-3613-482b-9964-f43c28a98713" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/java/com/bakainory/mybatisplus/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/java/com/bakainory/mybatisplus/mapper/DemoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/java/com/bakainory/mybatisplus/model/entity/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/java/com/bakainory/mybatisplus/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/java/com/bakainory/mybatisplus/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisPlus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootMyBatisPlus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/java/com/bakainory/mybatisplus/MybatisplusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/java/com/bakainory/mybatisplus/MybatisplusApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootMyBatisPlus/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Mapper" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,70 +88,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bakainory.mybatisplus.model.entity" />
+      <recent name="com.bakainory.mybatisplus.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SpringBootDemo/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bakainory.mybatisplus" />
+      <recent name="com.bakainory" />
       <recent name="com.bakainory.springbootdemo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserController">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo" />
-      <module name="MavenDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HutoolDateUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.HutoolDateUtils" />
-      <module name="MavenDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <module name="JavaDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bakainory.springbootdemo.testdemo.TestDemo" />
-      <module name="SpringBootDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bakainory.springbootdemo.testdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bakainory.springbootdemo.controller.UserController" />
-      <module name="SpringBootDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bakainory.springbootdemo.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -154,44 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisplusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MybatisplusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringBootMyBatisPlus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bakainory.mybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bakainory.mybatisplus.MybatisplusApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplecrawlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SimpleCrawler" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bakainory.simplecrawler.SimplecrawlerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SpringBootDemo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bakainory.springbootdemo.SpringBootDemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.TestDemo" />
-      <item itemvalue="Application.HutoolDateUtils" />
-      <item itemvalue="Application.ListTest" />
-      <item itemvalue="Application.UserController" />
-      <item itemvalue="Spring Boot.SpringBootDemoApplication" />
-      <item itemvalue="Spring Boot.SimplecrawlerApplication" />
-      <item itemvalue="Spring Boot.MybatisplusApplication" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserController" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.HutoolDateUtils" />
-        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Spring Boot.MybatisplusApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +165,9 @@
       <workItem from="1623725443581" duration="387000" />
       <workItem from="1623737315406" duration="3263000" />
       <workItem from="1624295961747" duration="840000" />
-      <workItem from="1624947626953" duration="2021000" />
+      <workItem from="1624947626953" duration="4255000" />
+      <workItem from="1625041923025" duration="11407000" />
+      <workItem from="1625108588570" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="逻辑实现">
       <created>1621666244462</created>
