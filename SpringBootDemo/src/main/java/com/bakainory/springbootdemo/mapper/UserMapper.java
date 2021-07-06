@@ -16,5 +16,5 @@ import java.util.List;
  **/
 @Mapper
 public interface UserMapper {
-    List<User> queryList();
+    List<User> queryList(String userName, String passWord);
 }

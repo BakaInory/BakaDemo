@@ -18,16 +18,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/baka")
 public class UserController {
+    @Autowired
+    UserService userService;
 
-    public static void main(String[] args) {
-        try {
-            User user = null;
-            user.getUserName();
-        } catch (Exception e ){
-            System.out.println(e.getMessage());
-        }
-
-        System.out.println("报错之后会不会执行");
+    @RequestMapping("/user")
+    public String getUser(String userName , String passWord){
+        return userService.list(userName , passWord).toString();
     }
-
 }

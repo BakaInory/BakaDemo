@@ -14,5 +14,5 @@ import java.util.List;
  * @date 2021-05-24 16:10
  **/
 public interface UserService {
-    List<User> list();
+    List<User> list(String userName , String passWord);
 }

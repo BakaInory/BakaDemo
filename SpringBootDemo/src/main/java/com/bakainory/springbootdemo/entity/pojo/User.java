@@ -17,16 +17,12 @@ import java.util.List;
  * @date 2021-05-24 15:53
  **/
 
-@TableName(value = "User")
 @Data
 public class User {
-    @TableId(value = "id")
     private Integer id;
 
-    @TableField("user_name")
-    private String UserName;
+    private String userName;
 
-    @TableField("type")
     private List<String> type;
 
 }
